@@ -17,8 +17,9 @@ for i in range(0,nr_symbols):
     password+=random.choice(symbols)
 for i in range(0,nr_numbers):
     password+=random.choice(numbers)
+# Shuffling the Character in the password
+password=''.join(random.sample(password,len(password))) 
 
-password=''.join(random.sample(password,len(password)))
 print(f"Your password is: {password}")
 
 

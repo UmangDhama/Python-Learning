@@ -19,7 +19,7 @@ for i in range(0,nr_numbers):
     password+=random.choice(numbers)
 
 password=''.join(random.sample(password,len(password)))
-print(password)
+print(f"Your passwor is: {password}")
 
 
 

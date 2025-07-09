@@ -40,7 +40,7 @@ while ans=='yes':
          ans=input()
     elif direction=='decode':
         decrypt(text,shift)
-        print("Type 'yes' if you want to go again.Otherwise type 'no'")
+        print("Type 'yes' if you want to go again. Otherwise type 'no'")
         ans = input()
 
 
